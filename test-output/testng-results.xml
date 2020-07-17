@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sanity Suite1" duration-ms="7325" started-at="2020-07-16T09:59:09Z" finished-at="2020-07-16T09:59:16Z">
+    <groups>
+    </groups>
+    <test name="test12" duration-ms="7325" started-at="2020-07-16T09:59:09Z" finished-at="2020-07-16T09:59:16Z">
+      <class name="com.ProductTests.Dataprovider">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ProductTests.Dataprovider@68be2bc2]" name="setup" is-config="true" duration-ms="4528" started-at="2020-07-16T15:29:09Z" finished-at="2020-07-16T15:29:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="m1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ProductTests.Dataprovider@68be2bc2]" name="m1" duration-ms="543" started-at="2020-07-16T15:29:13Z" data-provider="DP1" finished-at="2020-07-16T15:29:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Email Id]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method status="PASS" signature="m1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ProductTests.Dataprovider@68be2bc2]" name="m1" duration-ms="389" started-at="2020-07-16T15:29:14Z" data-provider="DP1" finished-at="2020-07-16T15:29:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Radha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Radha@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2345689]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method status="PASS" signature="m1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ProductTests.Dataprovider@68be2bc2]" name="m1" duration-ms="388" started-at="2020-07-16T15:29:14Z" data-provider="DP1" finished-at="2020-07-16T15:29:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jaiden]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jaiden@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[76879804]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[657843289]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method status="PASS" signature="m1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ProductTests.Dataprovider@68be2bc2]" name="m1" duration-ms="361" started-at="2020-07-16T15:29:15Z" data-provider="DP1" finished-at="2020-07-16T15:29:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gautam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gautam@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8563436]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[345681265]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ProductTests.Dataprovider@68be2bc2]" name="teardown" is-config="true" duration-ms="868" started-at="2020-07-16T15:29:15Z" finished-at="2020-07-16T15:29:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ProductTests.Dataprovider -->
+    </test> <!-- test12 -->
+  </suite> <!-- Sanity Suite1 -->
+</testng-results>

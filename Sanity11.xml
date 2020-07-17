@@ -1,0 +1,15 @@
+<suite name="Sanity Suite">
+
+<test name="test1">
+<classes>
+
+<class name="com.ProductTests.MenupageTest">
+
+</class>
+
+</classes>
+
+</test>
+
+
+</suite>

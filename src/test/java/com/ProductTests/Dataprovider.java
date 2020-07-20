@@ -4,6 +4,7 @@ import java.io.File;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -36,6 +37,14 @@ public class Dataprovider extends BaseTest{
 		driver.findElement(By.id("password")).sendKeys(v3);
 		driver.findElement(By.id("mobile")).sendKeys(v4);
 		driver.findElement(By.name("submit")).click();
+		
+		
+		
+		String actual=driver.findElement(By.xpath("//div[@class='bill_row']/span[3]")).getText();
+		String expected="Thanks for Registering. Use your Email id and password to Login and post your Deals!!";
+		
+		Assert.assertEquals(actual,"Thanks for Registering. Use your Email id and password to Login and post your Deals!!");
+		
 		
 	}
 	
